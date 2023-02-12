@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bloglovin'</title>
+    <link
+      rel="shortcut icon"
+      href="https://static.blovcdn.com/images/favicon.ico"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="nav-bar">
+        <a href="/">
+          <img class="navbar-logo" src="Assets/Img/logo-2.svg" alt="logo"
+        /></a>
+        <form class="sign-in-header-input">
+          <input
+            style="margin-top: -5px"
+            class="input-field"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+          />
+
+          <div>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              class="input-field password-field"
+              placeholder="Password"
+            />
+            <a
+              href=""
+              class="toggle-forgot-password"
+              data-qa-id="forgot-password"
+              data-toggle="modal"
+              >Forgot your Password?</a
+            >
+          </div>
+
+          <input
+            type="submit"
+            style="margin-top: -5px"
+            value="Log In"
+            class="header-login-submit"
+          />
+        </form>
+      </nav>
+    </header>
+    <!-- Main Section -->
+    <main class="main-section">
+      <div class="sign-in-form">
+        <p class="sign-in-title">
+          Follow your favorite blogs and discover new ones.
+        </p>
+        <button
+          class="btn-fb-sign-up"
+          data-qa-id="btn-fb-sign-up"
+          data-context="signup"
+        >
+          <span class="fb-signup-btn-text">Continue with Facebook</span>
+        </button>
+        <div class="signup-text-divider">Or</div>
+        <!-- Form -->
+        <form action="">
+          <input
+            class="sign-in-input"
+            type="text"
+            name="full name"
+            id="full name"
+            placeholder="Full Name"
+          />
+          <input
+            class="sign-in-input"
+            type="email"
+            name="emaail"
+            placeholder="Email"
+          />
+          <input
+            class="sign-in-input"
+            type="password"
+            name="password"
+            id="passeword"
+            placeholder="Create Password"
+          />
+          <input
+            class="sign-in-input sign-in-btn"
+            type="submit"
+            name=""
+            id=""
+            value="Sign In"
+          />
+        </form>
+        <div class="signup-disclaimer" data-qa-id="signup-disclaimer">
+          By creating an account, I accept Bloglovin's
+          <a class="signup-disclaimer-tos" href="/tos" target="_blank">
+            Terms of Service</a
+          >. Questions?
+          <a
+            class="signup-disclaimer-tos"
+            href="http://help.bloglovin.com"
+            target="_blank"
+            >Contact Us</a
+          >
+        </div>
+
+        <!-- Apple and Android -->
+      </div>
+    </main>
+  </body>
+</html>
